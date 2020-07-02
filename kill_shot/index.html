@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>MyHelloWorld</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body > 
+	<header>
+		<nav>
+
+			<div class="row clearfix" id="particles-js">
+			
+				<ul class="main-nav animated slideInDown" id="check-class">
+					<li><a href="feature.html">Features</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="new.html">Sign Up</a></li>
+				</ul>	
+				<a href="#"class="mobile-icon" onclick="slideshow()"> <i class="fa fa-bars"></i></a>
+			</div>
+
+
+
+		</nav>
+		<div class="main-contant-header">
+			<h1>My Hello<span class="colorchange">World</span><br></h1>
+			<br><a href="ctf/password.html" class="btn btn-full">Start CTF</a>
+			<a href="#" class="btn btn-nav">Instagram</a>
+		</div>
+		<script type="text/javascript" src="js/particles.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</header>
+
+
+
+  
+
+
+	<script type="text/javascript">
+		function slideshow(){
+			var x = document.getElementsByTagName('check-class');
+			if(x.style.display === "none"){
+				x.style.display="block";
+			}else{
+				x.style.display="none";
+		}
+
+	}
+</script>
+
+
+
+</body>
+</html>
